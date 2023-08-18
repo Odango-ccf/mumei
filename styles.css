@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+h2 {
+    font-size: 2.5em; /* フォントサイズを大きくする */
+    z-index: 3; /* z-indexを追加して最前面に表示 */
+    position: relative; /* 追加 */
+}
+
+#added {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
